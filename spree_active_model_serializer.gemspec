@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.author    = 'Vishal Zambre'
   s.email     = 'v.zambre@gmail.com'
-  s.homepage  = 'https://github.com/vishalzambre/spree_active_model_serializer'
+  s.homepage  = 'https://github.com/wiivv/spree_active_model_serializer'
   s.license = 'BSD-3'
 
   # s.files       = `git ls-files`.split("\n")
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'spree_core', '~> 3.0.9'
   s.add_dependency 'spree_api', '~> 3.0.9'
-  s.add_dependency 'active_model_serializers', '~> 0.8.2'
+  s.add_dependency 'active_model_serializers', '~> 0.9.4'
 
   s.add_development_dependency 'capybara', '~> 2.6'
   s.add_development_dependency 'rspec'
