@@ -1,5 +1,5 @@
 module Spree
-  class BaseSerializer < ActiveModel::Serializer
+  class BaseSerializer < ActiveModel::V08::Serializer
     # embed :ids, include: true
     include Spree::Api::ApiHelpers
 
